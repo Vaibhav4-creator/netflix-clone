@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import Banner from '../components/Banner'
 import Row from '../components/Row'
 import requests from '../utils/requests'
+import { Movie } from '../typings'
 
 interface Props {
   netflixOriginals: Movie[]
@@ -26,7 +27,6 @@ const Home = ({
   romanceMovies,
   topRated,
   trendingNow,
-  products,
 }: Props) => {
   console.log(netflixOriginals)
   return (
